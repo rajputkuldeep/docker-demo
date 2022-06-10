@@ -38,8 +38,9 @@ app.use(express.json());
     }))
 })();
 const connectWithRetry = () => {
-    console.log(dbURI, "dbURI")
+
     const dbURI = `mongodb://${config.MONGO_USER}:${config.MONGO_PASSWORD}@${config.MONGO_IP}:${config.MONGO_PORT}/`
+    console.log(dbURI, "dbURI")
     mongoose.connect(dbURI, {
         useNewUrlParser: true,
         useUnifiedTopology: true
