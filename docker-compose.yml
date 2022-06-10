@@ -12,7 +12,7 @@ services:
   node-app:
     build:
       context: .
-      dockerfile: DockerFile`
+      dockerfile: DockerFile
     environment:
       - PORT=3000
     depends_on:
