@@ -13,6 +13,7 @@ services:
     build:
       context: .
       dockerfile: DockerFile
+    image: rajputkn202212/node-app
     environment:
       - PORT=3000
     depends_on:
