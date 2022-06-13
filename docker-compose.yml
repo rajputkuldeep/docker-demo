@@ -13,7 +13,11 @@ services:
     build:
       context: .
       dockerfile: DockerFile
+<<<<<<< HEAD
     image: rajputkn202212/node-app  
+=======
+    image: rajputkn202212/node-app
+>>>>>>> 52e72bfeb08c31ba675625ace7b074bbc602337e
     environment:
       - PORT=3000
     depends_on:

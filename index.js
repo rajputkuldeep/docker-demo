@@ -59,7 +59,11 @@ app.enable('trust proxy')
 
 
 app.get('/api/v1', (req, res) => {
+<<<<<<< HEAD
     res.send('Hey !!!')
+=======
+    res.send('Working  !!!')
+>>>>>>> 52e72bfeb08c31ba675625ace7b074bbc602337e
 })
 
 app.use('/api/v1/post', postRoutes)
