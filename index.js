@@ -59,8 +59,6 @@ app.enable('trust proxy')
 
 
 app.get('/api/v1', (req, res) => {
-    
-
     res.send('Working  !!!')
 })
 
